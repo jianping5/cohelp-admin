@@ -37,7 +37,7 @@ router.beforeEach(async(to, from, next) => {
   // determine whether the user has logged in
   const userId = getUserId()
   const teamId = getTeamId()
-  const superAdminId = 19 // 这里的 19 需要改为1
+  const superAdminId = 1 // 这里的 19 需要改为1
 
   if (userId) {
     // 已登录再去登录页面时，直接跳转到主页

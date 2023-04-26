@@ -40,7 +40,7 @@ module.exports = {
     // 使用代理
     proxy: {
       '/dev-api': {
-        target: 'http://localhost:8080', 
+        target: 'http://43.143.90.226:9090', 
         changeOrigin: true,
         pathRewrite: {
           '^/dev-api': ''
